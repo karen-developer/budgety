@@ -24,19 +24,23 @@ body {
     font-weight: 400;
 }
 
-.footer {    
-    height: 6vh;
-    color: #979797;
+footer {       
+    letter-spacing: 2px;
+    color: #979797; 
+    margin: 10px auto;
     text-align: center;
-    margin: 3%;
 }
-  
-.mysite {
+
+footer i {
+    padding: 3px;
+}
+
+footer a {
     color:  rgb(216, 212, 212);
     text-decoration: none;
 }
   
-.mysite:hover {
+footer a:hover {
     color:  #f73859;
     text-decoration: none;
 }
@@ -198,20 +202,21 @@ body {
 
 /***** LISTS *****/
 .container {
-    height: 34vh;
+    height: 35vh;
     width: 90%;
-    margin: 60px auto;
+    margin: 30px auto;   
 }
 
 .income {
     float: left;
     width: 40%;
-    margin: 0 6%;
+    margin: 0 6%;    
 }
 
 .expenses {
     float: left;
     width: 40%;
+    overflow: auto;
 }
 
 h2 {
